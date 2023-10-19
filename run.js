@@ -1,5 +1,4 @@
-var zero = '0';
-
+// var zero = '0';
 var one = '1';
 var two = '2';
 var three = '3';
@@ -8,6 +7,8 @@ var five = '5';
 var six = '6';
 var seven = '7';
 var eight = '8';
+// var nine = '9';
+// var ten = '10';
 
 var firstNumberArray = [one];
 var secondNumberArray = [one, two];
@@ -87,4 +88,4 @@ function step (event) {
     }
 }
 
-setInterval(step, 888);
+setInterval(step, 1000);
